@@ -69,4 +69,4 @@ Destination :
 - Port G2/0 du Routeur R2
 On peut en déuire que B et R2 font bien leur travail de routage en transférant la requête de PC4 vers l"équipemet 172.16.5.253 via leur table de routage 
 # Q.3.23
-Depuis l'un des deux routeurs soit B ou R1. Les adresse MAC source et destination sont celle de leur port de communicaiton utilisé pour transmettre la communication
+Entre B ou R2 car les adresse MAC source et destination sont celle de leur port de communicaiton utilisé pour transmettre la communication
