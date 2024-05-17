@@ -59,7 +59,7 @@ On peut voir que sur la configuraiton les deux pools d'adresse IP suivante sont 
 - 172.16.10.1 à 172.16.10.19
 - 172.16.10.241 à 172.16.10.254
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/config_DHCP.png?raw=true)  
-C'est pour cette raison que l'adresse récupéré n'est pas la première et donc prend l'adresse 172.16.10.20 qui est donc la première disponnible.
+C'est pour cette raison que l'adresse récupéré n'est pas la première et donc prend l'adresse 172.16.10.20 qui est donc la première disponnible.  
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/client_dhcp2.png?raw=true)
 
 # Q.1.6
