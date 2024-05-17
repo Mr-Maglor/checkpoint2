@@ -122,7 +122,7 @@ foreach ($User in $Users)
         $Password = (ConvertTo-secureString $Pass -AsPlainText -Force)
         $Description = "$($user.description) - $($User.fonction)"
         $UserInfo = @{
-            Name                 = "$Prenom.$Nom"
+            Name                 = "$Name"
             FullName             = "$Name"
             Password             = $Password
             Description          = "$description"
