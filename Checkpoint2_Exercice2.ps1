@@ -85,7 +85,7 @@ function Log
     # Ajoute la ligne de journal au fichier
     Add-Content -Path $FilePath -Value $logLine
 }
-Function Random-Password ($length = 6)
+Function Random-Password ($length = 12)
 {
     $punc = 46..46
     $digits = 48..57
