@@ -116,7 +116,7 @@ foreach ($User in $Users)
     $Prenom = ManageAccentsAndCapitalLetters -String $User.prenom
     $Nom = ManageAccentsAndCapitalLetters -String $User.Nom
     $Name = "$Prenom.$Nom"
-    If (-not(Get-LocalUser -Name "$Prenom.$Nom" -ErrorAction SilentlyContinue))
+    If (-not(Get-LocalUser -Name "$Name" -ErrorAction SilentlyContinue))
     {
         $Pass = Random-Password
         $Password = (ConvertTo-secureString $Pass -AsPlainText -Force)
