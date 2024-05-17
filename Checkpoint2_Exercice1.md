@@ -52,7 +52,7 @@ Sur le client il faut passer l'adressage de la carte réseau en automatique :
 Une fois cela effectué on voit bien que la carte à récuépré une adresse réseau qui correspond bien au pool définit par le serveur. (172.16.10.20)
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/client_dhcp2.png?raw=true)  
 
-# Q.1.4
+# Q.1.5
 On peut voir que sur la configuraiton les deux pools d'adresse IP suivante sont excluent :
 - 172.16.10.1 à 172.16.10.19
 - 172.16.10.241 à 172.16.10.254
@@ -60,17 +60,17 @@ On peut voir que sur la configuraiton les deux pools d'adresse IP suivante sont 
 C'est pour cette raison que l'adresse récupéré n'est pas la première et donc prend l'adresse 172.16.10.20 qui est donc la première disponnible.
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/client_dhcp2.png?raw=true)
 
-# Q.1.5
+# Q.1.6
 Il faut faire une réservaiton par adresse MAC, l'adresse MAC de la carte du PC client est la suivante : 08-00-27-BF-C0-34
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/resa_IP.png?raw=true)  
 Bien laissé Both coché.  
 On redémarre ensuite le client et on voit qu'il a bien pris la nouvelle adresse IP.
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/IP_client_resa.png?raw=true)  
 
-# Q.1.6
+# Q.1.7
 L'IPV6, permet de se passer de serveur DHCP. Car automatiquement les machines d'un réseau local vont pouvoir se trouver.
 
-# Q.1.7
+# Q.1.8
 Dans ce cas précis si on réactive les adresse IPV6, le serveur DHCP ne sera plus utilie.
 Par contre on peut garder le serveur DHCP actif et lui configurer un pool d'adresse IPV6, comme on peut le voir ici :
 
