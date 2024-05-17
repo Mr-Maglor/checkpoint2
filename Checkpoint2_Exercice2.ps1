@@ -127,7 +127,7 @@ foreach ($User in $Users)
             Password             = $Password
             Description          = "$description"
             AccountNeverExpires  = $true
-            PasswordNeverExpires = $tr
+            PasswordNeverExpires = $true
         }
 
         New-LocalUser @UserInfo
