@@ -12,12 +12,14 @@ cela représente son CIDR qui est de 16 et donc il a un masque de sous-réseaus 
 # Q.3.5
 Cela ne repésente rien car cette adresse ne peut être mise en tant que passerelle car son adresse de réseau est la suivante 10.11.0.0/16 et non 10.10.0.0/16.
 # Q.3.6
- | PC1 | PC2 | PC5|  
+
+| | PC1 | PC2 | PC5|  
 |--|--|-|---|
-| Adresse réseaux | 10.10.0.0/16| 10.11.0.0/16 | 10.10.0.0/15|
-| 1er Adresse dispo.| 10.10.0.1/16 | 10.11.0.1/16 | 10.10.0.1/15|
-| Dernière adress. dipo.| 10.10.255.254/16| 10.11.255.254/16| 10.11.255.254/15|
-| Adresse de broadcast | 10.10.255.255/16 | 10.11.255.255/16 | 10.11.255.255/15|
+| Adresse réseaux | 10.10.0.0/16| 10.11.0.0/16 | 10.10.0.0/15|  
+| 1er Adresse dispo.| 10.10.0.1/16 | 10.11.0.1/16 | 10.10.0.1/15|  
+| Dernière adress. dipo.| 10.10.255.254/16| 10.11.255.254/16| 10.11.255.254/15|  
+| Adresse de broadcast | 10.10.255.255/16 | 10.11.255.255/16 | 10.11.255.255/15|  
+
 # Q.3.7
 Donc PC1 / PC3 / PC4 peuvent communiquer entre eux car il sont sur le même réseaux.  
 PC2 ne peut communiquer qu'avec PC5 (grâce à sont CIDR 15)  
