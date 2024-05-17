@@ -1,5 +1,5 @@
 #q2.1
-# Je me connecte sur le serveur depuis le client via le burreau d'accè_s à distance et je fais un copié collé entre les deux mahcines
+# Je me connecte sur le serveur depuis le client via le burreau d'accès à distance et je fais un copié collé entre les deux mahcines
 #q2.2
 # A l'execution le script lance une fenêtre powershell et se ferme, il ne se passe rien car le chemin pour aller chercher le fichier CSV n'est pas bon
 #il faut donc le remplacer comme ceci :
