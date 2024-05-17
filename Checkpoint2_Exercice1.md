@@ -25,6 +25,7 @@ On a bien une réponse à chaque fois, c'est bon.
 Voila le résultat du ping avec le nom du client
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/ping_s_c_nom.png?raw=true)  
 On a une réponse au ping demandé et il est effectué sur l'adresse IPV6 qui est l'adresse unicast lien local de la machine client.
+Cela fonctionne correctement.
 
 # Q.1.3
 
@@ -34,11 +35,12 @@ Pour désactiver l'IPV6, il suffit de le décocher dans la configuration de la c
 On vérifie ensuite via la commande `IPconfig /all`qu'elle est bien désactivé.  
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/client_ipv6_desac2.png?raw=true)  
 
-On refait un ping depuis le serveur vers la machine client avec son nom
+On refait un ping depuis le serveur vers la machine client avec son nom.
 
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/ping_s_c_nom_2.png?raw=true)  
 On a bien une réponse au ping, le nom de la machine est bien reconnu car les deux machines sont toujours sur le même plan d'adresse reseau IPV4.
-Et il fonctionne correctement, je ne vois pas l'intérêt de remodifier des choses sur le serveur ou le client car cela fonctionne.
+Et il fonctionne correctement, je ne vois pas l'intérêt de remodifier des choses sur le serveur ou le client car cela fonctionne. 
+On peut donc passer à la suite.
 
 # Q.1.4
 
@@ -61,7 +63,7 @@ C'est pour cette raison que l'adresse récupéré n'est pas la première et donc
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/client_dhcp2.png?raw=true)
 
 # Q.1.6
-Il faut faire une réservaiton par adresse MAC, l'adresse MAC de la carte du PC client est la suivante : 08-00-27-BF-C0-34
+Il faut faire une réservation par adresse MAC, l'adresse MAC de la carte du PC client est la suivante : 08-00-27-BF-C0-34
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/resa_IP.png?raw=true)  
 Bien laissé Both coché.  
 On redémarre ensuite le client et on voit qu'il a bien pris la nouvelle adresse IP.
@@ -72,6 +74,5 @@ L'IPV6, permet de se passer de serveur DHCP. Car automatiquement les machines d'
 
 # Q.1.8
 Dans ce cas précis si on réactive les adresse IPV6, le serveur DHCP ne sera plus utilie.
-Par contre on peut garder le serveur DHCP actif et lui configurer un pool d'adresse IPV6, comme on peut le voir ici :
-
+Par contre on peut garder le serveur DHCP actif et lui configurer un pool d'adresse IPV6, comme on peut le voir ici (encadré en rouge):
 ![](https://github.com/Mr-Maglor/checkpoint2/blob/main/img/dhcp_ipv6.png?raw=true)  
