@@ -57,7 +57,7 @@
 # Dans les deux cas on utilise la fonction comme cela 
 # Log -FilePath "chemin d'enregistrement du fichier a créer" -Content "message a afficher"
 #2.10
-#la fonction permet de supprimer tout les accents qui pouurait composer les prénoms des utilisateurs
+#la fonction permet de supprimer tout les accents qui pouurait composer les prénoms et noms des utilisateurs
 # elle permet aussi de passer tout les caractères en miniscule.
 #cela permet pour par exemple Anaïs Bourgeois, d'afficher son nom comme cela : anais.bourgeois
 
